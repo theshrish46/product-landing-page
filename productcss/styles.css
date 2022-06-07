@@ -1,0 +1,239 @@
+body{
+    height: 1000px;
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    background-color: hsla(0, 6%, 44%, 0.137);
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 60vw;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+nav > ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+    height: 200px;
+    text-align: center;
+}
+
+#hero > h3{
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 20px;
+    font-size: 26px;
+}
+
+#hero input[type="email"]{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-width: 1.5px;
+    border-radius: 3px;
+}
+
+#hero input[type="submit"]{
+    max-width: 150px;
+    width: 100%;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 5px;
+    font-size: 1em;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2px 45px 2px 70px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+}
+.grid{
+    font-weight: 5px;
+    margin: 30px 5px;
+}
+
+.grid h4{
+    text-align: left;
+    font-size: 28px;
+    margin: 0;
+    padding-inline-end: 0;
+}
+.des{
+    padding: 0;
+    margin: 0%;
+}
+
+
+.how-it-works{
+    min-height: 300px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.how-it-works > iframe{
+    height: 300px;
+    width: 560px;
+}
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 30px 20px 30px;
+    padding: 0;
+}
+
+.boxes{
+    width: 220px;
+    height: 280px;
+    border: 2px;
+    border-color: hsl(0, 0%, 0%);
+    border-style: solid;
+    padding: 0;
+    margin: 2px 10px 2px 10px;
+}
+.details{
+    height: 150px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+.tenor{
+    background-color: hsla(0, 6%, 44%, 0.137);
+    height: 45px;
+    text-align: center;
+    padding: 12px 2px 0px 2px;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+.bass{
+    background-color: hsla(0, 6%, 44%, 0.137);
+    height: 45px;
+    text-align: center;
+    padding: 12px 2px 0px 2px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.valve{
+    background-color: hsla(0, 6%, 44%, 0.137);
+    height: 45px;
+    text-align: center;
+    padding: 12px 2px 0px 2px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.btn{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: #f1c40f;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+footer{
+    margin-top: 25px;
+    background-color: hsla(0, 6%, 44%, 0.137);
+}
+footer > ul{
+    display: flex;
+    justify-content: center;
+}
+.footerlists{
+    list-style: none;
+    text-decoration: underline;
+    padding: 10px 25px;
+    margin-top: 10px; 
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 40px;
+    margin: 10px 15px;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 750px){
+    .pricing{
+        margin: 3em 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 200px;
+    }
+}
